@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/global-mat-search",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "ngx-mat-select-search": "ngx-mat-select-search",
+      "ng-mat-select-infinite-scroll": "ng-mat-select-infinite-scroll"
+    }
+  },
+  "whitelistedNonPeerDependencies": [
+    "angular",
+    "ngx-mat-select-search",
+    "ng-mat-select-infinite-scroll"
+  ]
+}

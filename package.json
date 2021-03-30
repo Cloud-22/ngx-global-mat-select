@@ -1,0 +1,19 @@
+{
+  "name": "ngx-global-mat-select",
+  "version": "0.0.13",
+  "scripts": {
+    "build-dev" : "ng build global-mat-select --watch"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^10.2.7",
+    "@angular/material": "^10.2.7"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0",
+    "ngx-mat-select-search": "^3.2.0",
+    "ng-mat-select-infinite-scroll": "^2.1.1"
+  },
+  "license": "MIT",
+  "keywords": ["select", "mat-select", "pagination", "material"],
+  "homepage": "https://github.com/Cloud-22/ngx-global-mat-select"
+}
